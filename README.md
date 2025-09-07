@@ -24,5 +24,8 @@
 * Abrir/Fechar agenda médica clínica.
 
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
-
-
+* Espo
+* Java - <a href="https://github.com/kauanzin222">Kauã Anthony Cardoso</a>
+* Angular
+* AWS Cloud
+* SQL
