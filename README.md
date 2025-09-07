@@ -12,7 +12,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;  
 
 ## Requisitos de Alto Nível 📋 
-&nbsp;&nbsp;&nbsp;&nbsp;
+### Paciente 👤  
+* Agendamento Médico;
+* Avalição Opcional dos serviços, médicos e posto de saúde;
+* Visualizar avaliação de hospitais públicos.
+### Médico 🧑‍⚕️
+* Registro de monitoramento de pacientes;
+* Controle de vacinas;
+* Controlar agenda.
+### Hospital 🚑
+* Abrir/Fechar agenda médica clínica.
 
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
 
