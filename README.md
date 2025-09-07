@@ -24,7 +24,7 @@
 * Abrir/Fechar agenda médica clínica.
 
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
-* Espo - <a href="https://github.com/JoseCBJ">José Carlos</a>
+* Expo - <a href="https://github.com/JoseCBJ">José Carlos</a>
 * Java - <a href="https://github.com/kauanzin222">Kauã Anthony Cardoso</a>
 * Angular
 * AWS Cloud
