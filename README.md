@@ -19,4 +19,4 @@
 * Java - <a href="https://github.com/kauanzin222">Kauã Anthony Cardoso</a>
 * Angular
 * AWS Cloud
-* SQL
+* SQL - <a href="https://github.com/GabrielReis97">Gabriel Reis</a>
