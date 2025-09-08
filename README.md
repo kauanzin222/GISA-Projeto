@@ -29,7 +29,8 @@
 ### Médico 🧑‍⚕️
 * Registro de monitoramento de pacientes;
 * Controle de vacinas;
-* Controlar agenda.
+* Controlar agenda;
+* Receitar/prescrever.
 ### Hospital 🚑
 * Abrir/Fechar agenda médica clínica.
   
