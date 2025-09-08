@@ -23,18 +23,26 @@
 ## Requisitos de Alto Nível 📋 
 
 ### Paciente 👤  
-* Agendamento Médico;
-* Avalição opcional dos serviços, médicos e posto de saúde;
+* Agendar/Cancelar Consultas;
+* Avaliar os serviços, médicos e postos de saúde;
 * Visualizar histórico de consultas;
-* Visualizar avaliação de hospitais públicos.
-### Médico 🧑‍⚕️
-* Registro de monitoramento de pacientes;
-* Controle de vacinas;
-* Controlar agenda;
-* Receitar/prescrever.
-### Hospital 🚑
-* Abrir/Fechar agenda médica clínica.
+* Visualizar avaliação de postos de saúde;
+* Cadastrar/Excluir dependentes;
+* Visualizar receitas, atestados e prescrições médicas;
+* Solicitar receita médica;
+* Visualizar postos próximos;
+* Identificar movimentação dos postos.
   
+### Médico 🧑‍⚕️
+* Registro de pacientes;
+* Administrar atividades dos pacientes;
+* Controlar agenda de consultas;
+* Receitar, prescrever e atestar.
+  
+### Hospital 🚑
+* Abrir/Fechar agenda médica clínica;
+* Visualizar avaliações dos pacientes.
+
 ---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
 * Expo - <a href="https://github.com/JoseCBJ">José Carlos</a>
