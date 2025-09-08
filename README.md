@@ -24,7 +24,8 @@
 
 ### Paciente 👤  
 * Agendamento Médico;
-* Avalição Opcional dos serviços, médicos e posto de saúde;
+* Avalição opcional dos serviços, médicos e posto de saúde;
+* Visualizar histórico de consultas;
 * Visualizar avaliação de hospitais públicos.
 ### Médico 🧑‍⚕️
 * Registro de monitoramento de pacientes;
