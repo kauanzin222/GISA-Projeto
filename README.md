@@ -40,4 +40,4 @@
 * Java - <a href="https://github.com/kauanzin222">Kauã Cardoso</a>
 * Angular - <a href="https://github.com/belenuslugh">Eduardo Proença</a>
 * AWS Cloud - <a href="https://github.com/kacrr">Karina Corrêa</a>
-* SQL - <a href="https://github.com/GabrielReis97">Gabriel dos Reis</a>
+* Banco de dados - <a href="https://github.com/GabrielReis97">Gabriel dos Reis</a>
