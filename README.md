@@ -34,14 +34,18 @@
 * Identificar movimentação dos postos.
   
 ### Médico 🧑‍⚕️
-* Registro de pacientes;
+* Registrar pacientes;
 * Administrar atividades dos pacientes;
 * Controlar agenda de consultas;
-* Receitar, prescrever e atestar.
+* Receitar, prescrever e atestar;
+* Visualizar histórico de consultas do paciente.
   
 ### Hospital 🚑
+* Registrar pacientes;
 * Abrir/Fechar agenda médica clínica;
 * Visualizar avaliações dos pacientes.
+
+[Clique aqui para visualizar os Casos de Alto Nível.](https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/CasosUso.drawio.png)
 
 ---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
