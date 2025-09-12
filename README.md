@@ -45,7 +45,7 @@
 * Abrir/Fechar agenda médica clínica;
 * Visualizar avaliações dos pacientes.
 
-[Clique aqui para visualizar os Casos de Alto Nível.](https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/CasosUso.drawio.png)
+[Clique aqui para visualizar os Casos de Uso de Alto Nível.](https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/CasosUso.drawio.png)
 
 ---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
