@@ -30,7 +30,7 @@
 * Visualizar avaliação de postos de saúde;
 * Cadastrar/Excluir dependentes;
 * Visualizar receitas, atestados e prescrições médicas;
-* Solicitar receita médica;
+* Solicitar renovação de receita médica;
 * Visualizar postos próximos;
 * Identificar movimentação dos postos.
   
@@ -44,9 +44,10 @@
 ### Hospital 🚑
 * Registrar pacientes;
 * Abrir/Fechar agenda médica clínica;
+* Controlar agenda de consultas;
 * Visualizar avaliações dos pacientes.
 
-[Clique aqui para visualizar os Casos de Uso de Alto Nível.](https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/CasosUso.drawio.png)
+[Clique aqui para visualizar os Casos de Uso de Alto Nível.](doc/CasoUso_2.drawio.png)
 
 ---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
