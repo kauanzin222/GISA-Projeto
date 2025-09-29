@@ -2,7 +2,7 @@
 ---
 O roteiro será **semi-estruturado**, poderemos fazer perguntas que estão fora do script sem problemas.  
   
-  - 📅 **Data:** 28/09;
+  - 📅 **Data:** 29/09;
   - ⌚ **Horário estipulado:** 15hrs;
 
 ---
