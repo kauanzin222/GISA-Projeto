@@ -2,8 +2,8 @@
 ---
 O roteiro será **semi-estruturado**, poderemos fazer perguntas que estão fora do script sem problemas.  
   
-  - 📅 **Data:** *a definir com professor Wladimir*;
-  - ⌚ **Horário estipulado:** após às 13hrs;
+  - 📅 **Data:** 28/09;
+  - ⌚ **Horário estipulado:** 15hrs;
 
 ---
 ### Ideias de perguntas: 
@@ -18,3 +18,5 @@ O roteiro será **semi-estruturado**, poderemos fazer perguntas que estão fora 
     3. A APAE Sorocaba recebe apenas pessoas necessitadas e especiais? 
 
     4. Há alguma diferença de APAE para APAE? Elas são independentes?
+
+
