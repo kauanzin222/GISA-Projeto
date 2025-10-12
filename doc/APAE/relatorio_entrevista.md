@@ -1,10 +1,15 @@
 ### Relatório de Entrevista da APAE 
 
 No dia **29/09/2025**, visitamos a APAE Sorocaba para podermos entender melhor todos os processos, situações e sistemas que eles passavam.   
-Foi um dia muito bom que nos fez termos uma visão muito ampla de toda a área da saúde que eles ficam responsáveis por atuar. O pessoal foi muito simpático e receptivo, entenderam que era nossa primeira experiência entrevistando. O professor também foi nos auxiliando, entregando as perguntas **chaves** para entender melhor o sistema, foi um ótimo tutor durante a entrevista.  
+Foi um dia muito bom que nos fez termos uma visão muito ampla de toda a área da saúde que eles ficam responsáveis por atuar. O pessoal foi muito simpático e receptivo, entenderam que era nossa primeira experiência entrevistando. O professor também foi nos auxiliando, entregando as perguntas **chaves** para entender melhor o sistema, foi um ótimo tutor durante a entrevista. 
+ 
 ---  
+
 Conhecemos todo o estabelecimento desde a recepção até as salas clínicas e de consultas. Entendemos as dificuldades que eles enfrentam, o quanto eles precisam de um sistema de **Prontuário Eletrônico**.  
 Os pacientes são encaminhados para APAE pelo SUS, e então é feito uma **triagem** para identificar todos **CIDs** (Classificação Estatística Internacional de Doenças) paciente, podendo ele ter **um ou mais CID**. Assim, é possível entender as necessidades e quais passos a se tomar com o mesmo. E todo o cadastro e afins são **feitos por meio de papéis**. O sistema de agendamento deles é feito por meio de Excel, onde eles manuseiam tudo por meio de tabelas (montadas como uma agenda), portanto este processo demanda muito tempo e pode ocorrer muitos erros, o controle é muito baixo. Agendado uma consulta, o responsável pelo paciente é informado da data. Um paciente pode passar por várias consultas e atividades em um dia.  
+
 --- 
+
 Cada atividade/consulta tem uma **documentação**, porém não há uma comunicação **limpa e segura** entre uma atividade e outra, tornando difícil o controle do que foi feito e o que não foi com o paciente. O mesmo também está sempre sendo avaliado para se entender o avanço em relação as atividades. Em cada consulta também é possível receitar ou prescrever um medicamento. Ao fim de todas as atividades, o paciente poderá ter um novo agendamento.  
+
 ---
