@@ -29,8 +29,7 @@
 * Visualizar histórico de consultas;
 * Visualizar receitas, atestados e prescrições médicas;
 * Solicitar renovação de receita médica;
-* Visualizar postos próximos;
-* Identificar movimentação dos postos.
+* Receber feedback de avanço do paciente.
   
 ### Profissional de Saúde 🧑‍⚕️
 * Receitar, prescrever e atestar;
@@ -41,8 +40,9 @@
 ### APAE 🚑
 * Administrar atendimentos dos pacientes;
 * Registrar pacientes;
-* Abrir/Fechar agenda médica clínica;
-* Controlar agenda de consultas;
+* Abrir/Fechar agenda clínica;
+* Controlar agenda de consultas/atendimentos;
+* Cadastrar Profissional de Saúde;
 * Visualizar avaliações dos pacientes.
 
 [Clique aqui para visualizar os Casos de Uso de Alto Nível.](doc/CasoUso_2.drawio.png)
