@@ -23,26 +23,25 @@
 ## Requisitos de Alto Nível 📋 
 
 ### Paciente 👤  
-* Agendar/Cancelar Consultas;
-* Avaliar os serviços, médicos e postos de saúde;
+* Cancelar Consultas;
+* Avaliar os serviços e atendimentos médicos;
 * Visualizar histórico de consultas;
-* Visualizar avaliação de postos de saúde;
-* Cadastrar/Excluir dependentes;
 * Visualizar receitas, atestados e prescrições médicas;
 * Solicitar receita médica;
-* Visualizar postos próximos;
-* Identificar movimentação dos postos.
+* Receber feedback de avanço do paciente.
   
-### Médico 🧑‍⚕️
-* Registrar pacientes;
-* Administrar atividades dos pacientes;
-* Controlar agenda de consultas;
+### Profissional de Saúde 🧑‍⚕️
 * Receitar, prescrever e atestar;
+* Registrar atendimentos diários realizadas do paciente;
+* Relatar condição atual do paciente durante os atendimentos;
 * Visualizar histórico de consultas do paciente.
   
-### Hospital 🚑
+### APAE 🚑
+* Administrar atendimentos dos pacientes;
 * Registrar pacientes;
-* Abrir/Fechar agenda médica clínica;
+* Cadastrar Profissional de Saúde;
+* Controlar agenda de consultas/atendimentos;
+* Abrir/Fechar agenda clínica;
 * Visualizar avaliações dos pacientes.
 
 [Clique aqui para visualizar os Casos de Uso de Alto Nível.](https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/CasosUso.drawio.png)
