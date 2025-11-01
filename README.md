@@ -16,9 +16,10 @@
 * Pouca informação do tempo de espera e movimento dos postos hospitalares.
 ---
 ## Modelo de Negócios 🕴️
-&nbsp;&nbsp;&nbsp;&nbsp;Buscamos alcançar o serviço de saúde pública por meio de contratos com farmácias e governo (SUS).  Para alcançar tal objetivo, utilizaremos meios de comunicação como redes sociais, panfletos, cartazes, televisão, eventos caracterizados e anúncios online. Dos mesmos meios, utilizaremos alguns para estabelecer um relacionamento firme com os usuários comuns a fim de manter a solução atualizada e sempre atendendo as necessidades.   
-&nbsp;&nbsp;&nbsp;&nbsp;Alguns recursos chaves que precisaremos serão acesso ao banco de dados do SUS, servidores centrais e parcerias com empresas, hospitais e instituições de ensino. Por estes meios, poderemos financiar e encaminhar o projeto para seus objetivos
-
+  
+<img
+  src="https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/BMC%20E.G.II.png" 
+/>
 ---
 ## Requisitos de Alto Nível 📋 
 
@@ -27,8 +28,9 @@
 * Avaliar os serviços e atendimentos médicos;
 * Visualizar histórico de consultas;
 * Visualizar receitas, atestados e prescrições médicas;
-* Solicitar receita médica;
-* Receber feedback de avanço do paciente.
+* Solicitar renovação de receita médica;
+* Visualizar postos próximos;
+* Identificar movimentação dos postos.
   
 ### Profissional de Saúde 🧑‍⚕️
 * Receitar, prescrever e atestar;
@@ -39,12 +41,11 @@
 ### APAE 🚑
 * Administrar atendimentos dos pacientes;
 * Registrar pacientes;
-* Cadastrar Profissional de Saúde;
-* Controlar agenda de consultas/atendimentos;
-* Abrir/Fechar agenda clínica;
+* Abrir/Fechar agenda médica clínica;
+* Controlar agenda de consultas;
 * Visualizar avaliações dos pacientes.
 
-[Clique aqui para visualizar os Casos de Uso de Alto Nível.](https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/CasosUso.drawio.png)
+[Clique aqui para visualizar os Casos de Uso de Alto Nível.](doc/CasoUso_2.drawio.png)
 
 ---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
