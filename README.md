@@ -17,9 +17,7 @@
 ---
 ## Modelo de Negócios 🕴️
   
-<img
-  src="https://github.com/kauanzin222/GISA-Projeto/blob/main/doc/BMC%20E.G.II.png" 
-/>
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/91b79912-beb5-438a-922a-3717c959e096" />
 ---
 ## Requisitos de Alto Nível 📋 
 
