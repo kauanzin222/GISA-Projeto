@@ -13,7 +13,7 @@
 * Falta de disponibilidade para agendamentos;
 * Pouca gestão dos serviços realizados;
 * Falta de feedback dos pacientes;
-* Pouca informação do tempo de espera e movimento dos postos hospitalares.
+  
 ---
 ## Modelo de Negócios 🕴️
   
