@@ -48,6 +48,12 @@
 [Clique aqui para visualizar os Casos de Uso de Alto Nível.](doc/CasoUso_2.drawio.png)
 
 ---
+
+## [Protótipo Parcial do Projeto](https://www.figma.com/make/g27uAIlfrCJjQB4AqNYJr1/Aplicativo-de-Sa%C3%BAde-APAE?node-id=0-1&p=f&fullscreen=1) 🛠
+* Utilizamos Figma Make para formação do protótipo;
+* Usamos como base o [relatório de entrevista](doc/APAE/relatorio_entrevista.md).
+
+---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
 * Expo - <a href="https://github.com/JoseCBJ">José Carlos</a>
 * Java - <a href="https://github.com/kauanzin222">Kauã Cardoso</a>
