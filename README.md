@@ -53,6 +53,7 @@
 * Utilizamos **Figma Make** para formação do protótipo
 * Link para o vídeo de apresentação: [**Apresentação Final**](https://youtu.be/4ec46Yfk3Og)
 * Usamos como base o [**relatório de entrevista**](doc/APAE/relatorio_entrevista.md)
+* Documentação do Protótipo: [**Prototipo.pdf**](https://github.com/kauanzin222/GISA-Projeto/blob/ff58c548cbd0642145f7287d3cf52fab2241b3b1/doc/Documentar%20o%20Prot%C3%B3tipo%20Parcial.pdf)
 
 ---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
