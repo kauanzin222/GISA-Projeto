@@ -51,7 +51,7 @@
 
 ## [Protótipo Parcial do Projeto](https://www.figma.com/make/g27uAIlfrCJjQB4AqNYJr1/Aplicativo-de-Sa%C3%BAde-APAE?node-id=0-1&p=f&fullscreen=1) 🛠
 * Utilizamos **Figma Make** para formação do protótipo
-* Link para o vídeo de apresentação: [**Apresentação Parcial**](https://www.youtube.com/watch?v=BzmD7WhcG6A)
+* Link para o vídeo de apresentação: [**Apresentação Parcial**](https://youtu.be/4ec46Yfk3Og)
 * Usamos como base o [**relatório de entrevista**](doc/APAE/relatorio_entrevista.md)
 
 ---
