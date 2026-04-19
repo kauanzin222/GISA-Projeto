@@ -64,25 +64,40 @@ Sistema web + mobile com:
 [**Clique aqui para visualizar os Casos de Uso de Alto Nível.**](doc/CasoUso_2.drawio.png)
 
 ---
-## Modelo de Negócios 🕴️
-  
+<!--
+## Modelo de Negócios 🕴️ 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/91b79912-beb5-438a-922a-3717c959e096" />
 
-
+-->
 ## Protótipo 🛠️
  
 Desenvolvido no **Figma Make** — [Abrir protótipo](https://www.figma.com/make/g27uAIlfrCJjQB4AqNYJr1/Aplicativo-de-Sa%C3%BAde-APAE?node-id=0-1&p=f&fullscreen=1)
  
 [Vídeo de apresentação](https://youtu.be/4ec46Yfk3Og) · [Documentação do protótipo](https://github.com/kauanzin222/GISA-Projeto/blob/ff58c548cbd0642145f7287d3cf52fab2241b3b1/doc/Documentar%20o%20Prot%C3%B3tipo%20Parcial.pdf)
 
-* ##  Administrativo
-<img width="1359" height="1282" alt="image" src="https://github.com/user-attachments/assets/407c2177-4138-46dd-9f9a-5dd3812b6bbf" />
+## 🖼️ Demonstração das Telas
 
-* ## Profissional
-<img width="1359" height="868" alt="image" src="https://github.com/user-attachments/assets/c1f4ee49-0756-4204-857a-f73659d566d8" />
+### 🔐 Painel Administrativo
+> Gestão completa de usuários, relatórios e configurações do sistema.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/407c2177-4138-46dd-9f9a-5dd3812b6bbf" width="90%">
+</p>
 
-* ## Paciente
-<img width="1329" height="1055" alt="image" src="https://github.com/user-attachments/assets/147db493-9bb5-4e64-a288-eedfc4c5d772" />
+---
+
+### 👨‍⚕️ Área do Profissional
+> Interface otimizada para consultas, prontuários e agenda.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c1f4ee49-0756-4204-857a-f73659d566d8" width="90%">
+</p>
+
+---
+
+### 👤 Portal do Paciente
+> Visualização de exames, histórico e agendamentos simplificados.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/147db493-9bb5-4e64-a288-eedfc4c5d772" width="90%">
+</p>
 
 ---
 ## Tecnologias que serão usadas e seus responsáveis 🖥️
