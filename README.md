@@ -2,8 +2,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;Ferramenta de auxílio para o âmbito de saúde pública 🏥  
 ---
 ## Resumo 📝
-&nbsp;&nbsp;&nbsp;&nbsp;O projeto **GISA (Gestão e Inovação em Saúde)** tem como objetivo trazer uma maneira de se administrar, aprimorar e inovar métodos de serviço utilizados em hospitais públicos. Buscamos tornar o acesso e uso a serviços de saúde pública mais organizados e práticos, a fim de trazer conforto para os necessitados de tal solução. Este trará uma forma ecologicamente sustentável, dentro do possível, para prescritivos, receitas médicas e atestados, nos preocupando com todos os pontos necessários como políticas, privacidade e veracidade. Através deste projeto, permitiremos que usuários acessem, de forma prática, agendamentos de consultas para si e também dependentes; localizar postos de saúde próximos, analisar horários de movimento deste, realizar avaliações e críticas sobre atendimentos e serviços hospitalares tanto quanto do próprio programa/solução. Traremos diversas facilidades e praticidade aos usuários profissionais, buscando entendê-los da melhor forma para trazer o equilíbrio entre os usuários comuns.  
-&nbsp;&nbsp;&nbsp;&nbsp;O projeto também terá interações com farmácias locais para estabelecer uma ligação limpa e rápida. Assim, será possível manter uma comunicação direta entre os hospitais e farmácias para melhor praticidade.
+&nbsp;&nbsp;&nbsp;&nbsp;O projeto **GISA (Gestão e Inovação em Saúde)** tem como objetivo trazer uma maneira de se administrar de gestão em saúde voltado para instituições como a APAE, substituindo processos manuais (Excel, papel, WhatsApp) por uma plataforma unificada com prontuário eletrônico, agendamento inteligente, notificações automáticas e geração de relatórios para fiscalização governamental.
 
 ---
 ## Principais Dores 🚩
