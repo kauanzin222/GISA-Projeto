@@ -1,58 +1,79 @@
 # GISA (Gestão e Inovação em Saúde) - Receitas Digitais
-&nbsp;&nbsp;&nbsp;&nbsp;Ferramenta de auxílio para o âmbito de saúde pública 🏥  
----
-## Resumo 📝
+
+## &nbsp;&nbsp;&nbsp;&nbsp;Ferramenta de auxílio para o âmbito de saúde pública 🏥  
 &nbsp;&nbsp;&nbsp;&nbsp;O projeto **GISA (Gestão e Inovação em Saúde)** tem como objetivo trazer uma maneira de se administrar de gestão em saúde voltado para instituições como a APAE, substituindo processos manuais (Excel, papel, WhatsApp) por uma plataforma unificada com prontuário eletrônico, agendamento inteligente, notificações automáticas e geração de relatórios para fiscalização governamental.
 
 ---
-## Principais Dores 🚩
-* Uso excessivo de papéis;
-* Perda de prescritivos, receitas e atestados médicos;
-* Falta de organização e praticidade;
-* Falta de disponibilidade para agendamentos;
-* Pouca gestão dos serviços realizados;
-* Falta de feedback dos pacientes;
-  
+
+## O Problema 🚩
+
+A APAE Sorocaba opera hoje com ferramentas fragmentadas:
+
+| Processo | Ferramenta atual |
+|---|---|
+| Documentação | Word |
+| Agendamento | Excel |
+| Comunicação interna | WhatsApp |
+| Entrada de pacientes | Site SUS (Central Reguladora de Vagas) |
+| Cadastro de pacientes | Papel |
+
+Isso gera perda de informações, baixo controle e muito retrabalho.
+
+---
+
+## A Solução 💡
+
+Sistema web + mobile com:
+
+- Prontuário eletrônico unificado (PTS diário + histórico por especialidade)
+- Agendamento inteligente com múltiplas consultas por dia
+- Notificações automáticas via WhatsApp (chatbot)
+- Relatórios semestrais de evolução clínica (score 1–6)
+- Geração de documentos oficiais com papel timbrado
+- Matrícula única por paciente
+
+---
+
+## Requisitos de Alto Nível 📋
+
+### Paciente / Responsável 👤
+- Cancelar consultas
+- Avaliar serviços e atendimentos
+- Visualizar histórico de consultas
+- Visualizar receitas, atestados e prescrições
+- Solicitar renovação de receita médica
+- Receber notificações e feedback de evolução clínica
+
+### Profissional de Saúde 🧑‍⚕️
+- Receitar, prescrever e atestar digitalmente
+- Registrar atendimentos e PTS diário
+- Gerar relatório semestral de evolução (score 1 a 6)
+- Visualizar histórico unificado do paciente
+
+### APAE (Administração / Recepção) 🚑
+- Gerenciar fila de triagem (SUS / Municipal)
+- Cadastrar pacientes (Saúde, Educação, Assistência)
+- Agendar, remarcar e registrar faltas com atestado
+- Gerenciar profissionais (PJ/CLT + CBO)
+- Abrir/fechar agenda clínica
+- Imprimir documentos oficiais
+- Visualizar avaliações dos pacientes
+
+---
+
+[**Clique aqui para visualizar os Casos de Uso de Alto Nível.**](doc/CasoUso_2.drawio.png)
+
 ---
 ## Modelo de Negócios 🕴️
   
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/91b79912-beb5-438a-922a-3717c959e096" />
 
----
 
-## Requisitos de Alto Nível 📋 
-
-### Paciente 👤  
-* Cancelar Consultas;
-* Avaliar os serviços e atendimentos médicos;
-* Visualizar histórico de consultas;
-* Visualizar receitas, atestados e prescrições médicas;
-* Solicitar renovação de receita médica;
-* Receber feedback de avanço do paciente.
-  
-### Profissional de Saúde 🧑‍⚕️
-* Receitar, prescrever e atestar;
-* Registrar atendimentos diários realizadas do paciente;
-* Relatar condição atual do paciente durante os atendimentos;
-* Visualizar histórico de consultas do paciente.
-  
-### APAE 🚑
-* Administrar atendimentos dos pacientes;
-* Registrar pacientes;
-* Abrir/Fechar agenda clínica;
-* Controlar agenda de consultas/atendimentos;
-* Cadastrar Profissional de Saúde;
-* Visualizar avaliações dos pacientes.
-
-[**Clique aqui para visualizar os Casos de Uso de Alto Nível.**](doc/CasoUso_2.drawio.png)
-
----
-
-## [Protótipo Final do Projeto](https://www.figma.com/make/g27uAIlfrCJjQB4AqNYJr1/Aplicativo-de-Sa%C3%BAde-APAE?node-id=0-1&p=f&fullscreen=1) 🛠
-* Utilizamos **Figma Make** para formação do protótipo
-* Link para o vídeo de apresentação: [**Apresentação Final**](https://youtu.be/4ec46Yfk3Og)
-* Usamos como base o [**relatório de entrevista**](doc/APAE/relatorio_entrevista.md)
-* Documentação do Protótipo: [**Prototipo.pdf**](https://github.com/kauanzin222/GISA-Projeto/blob/ff58c548cbd0642145f7287d3cf52fab2241b3b1/doc/Documentar%20o%20Prot%C3%B3tipo%20Parcial.pdf)
+## Protótipo 🛠️
+ 
+Desenvolvido no **Figma Make** — [Abrir protótipo](https://www.figma.com/make/g27uAIlfrCJjQB4AqNYJr1/Aplicativo-de-Sa%C3%BAde-APAE?node-id=0-1&p=f&fullscreen=1)
+ 
+[Vídeo de apresentação](https://youtu.be/4ec46Yfk3Og) · [Documentação do protótipo](https://github.com/kauanzin222/GISA-Projeto/blob/ff58c548cbd0642145f7287d3cf52fab2241b3b1/doc/Documentar%20o%20Prot%C3%B3tipo%20Parcial.pdf)
 
 * ##  Administrativo
 <img width="1359" height="1282" alt="image" src="https://github.com/user-attachments/assets/407c2177-4138-46dd-9f9a-5dd3812b6bbf" />
