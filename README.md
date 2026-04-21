@@ -37,7 +37,7 @@ Sistema web + mobile com:
 ## Requisitos de Alto Nível 📋
 
 ### Paciente / Responsável 👤
-- Cancelar consultas
+- Solicitar o Cancelar consultas
 - Avaliar serviços e atendimentos
 - Visualizar histórico de consultas
 - Visualizar receitas, atestados e prescrições
@@ -58,6 +58,7 @@ Sistema web + mobile com:
 - Abrir/fechar agenda clínica
 - Imprimir documentos oficiais
 - Visualizar avaliações dos pacientes
+- Cancelar consultas
 
 ---
 
