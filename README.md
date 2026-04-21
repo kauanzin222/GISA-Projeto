@@ -37,7 +37,7 @@ Sistema web + mobile com:
 ## Requisitos de Alto Nível 📋
 
 ### Paciente / Responsável 👤
-- Solicitar o Cancelar consultas
+- Informação de como solicitar o cancelar consultas
 - Avaliar serviços e atendimentos
 - Visualizar histórico de consultas
 - Visualizar receitas, atestados e prescrições
