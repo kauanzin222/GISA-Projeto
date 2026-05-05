@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Fluxo 11 - Gestão de Profissionais" id="fluxo11">
+    <mxGraphModel dx="778" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="swim" parent="1" style="shape=pool;startSize=30;horizontal=1;childLayout=stackLayout;horizontalStack=1;resizeParent=1;resizeParentMax=0;collapsible=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;fontStyle=1;" value="Fluxo 11 — Gestão de Profissionais (PJ / CLT + CBO)" vertex="1">
+          <mxGeometry height="640" width="1060" x="55" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" value="Administrador" vertex="1">
+          <mxGeometry height="640" width="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n1s" parent="l1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="105" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1a" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Acessa módulo&#xa;de profissionais" vertex="1">
+          <mxGeometry height="50" width="150" x="45" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1dec" parent="l1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Ação&#xa;desejada?" vertex="1">
+          <mxGeometry height="80" width="150" x="45" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n1b" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Preenche dados:&#xa;nome, CBO, vínculo&#xa;(PJ/CLT)" vertex="1">
+          <mxGeometry height="60" width="150" x="45" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="n1c" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Abre / fecha&#xa;agenda do profissional" vertex="1">
+          <mxGeometry height="60" width="150" x="45" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="l1" source="n1s" style="edgeStyle=orthogonalEdgeStyle;" target="n1a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="l1" source="n1a" style="edgeStyle=orthogonalEdgeStyle;" target="n1dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="l1" source="n1dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=2;" target="n1b" value="Cadastrar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="l1" source="n1dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=2;exitX=1;exitY=0.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n1c" value="Abrir/Fechar agenda">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Sistema GISA" vertex="1">
+          <mxGeometry height="640" width="280" x="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n2a" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Valida CBO e&#xa;dados do vínculo" vertex="1">
+          <mxGeometry height="50" width="150" x="65" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="n2b" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Profissional cadastrado&#xa;/ agenda atualizada" vertex="1">
+          <mxGeometry height="50" width="150" x="65" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="n2f" parent="l2" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="125" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="l2" source="n2a" style="edgeStyle=orthogonalEdgeStyle;" target="n2b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="l2" source="n2b" style="edgeStyle=orthogonalEdgeStyle;" target="n2f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Profissional Cadastrado" vertex="1">
+          <mxGeometry height="640" width="260" x="520" as="geometry" />
+        </mxCell>
+        <mxCell id="n3a" parent="l3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Recebe credenciais&#xa;de acesso ao sistema" vertex="1">
+          <mxGeometry height="60" width="150" x="55" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="n3f" parent="l3" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="115" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="l3" source="n3a" style="edgeStyle=orthogonalEdgeStyle;" target="n3f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Coordenação" vertex="1">
+          <mxGeometry height="640" width="280" x="780" as="geometry" />
+        </mxCell>
+        <mxCell id="n4a" parent="l4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Recebe notificação&#xa;de novo profissional" vertex="1">
+          <mxGeometry height="60" width="150" x="65" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="n4f" parent="l4" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="125" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="l4" source="n4a" style="edgeStyle=orthogonalEdgeStyle;" target="n4f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="swim" source="n1b" style="edgeStyle=orthogonalEdgeStyle;" target="n2a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="swim" source="n1c" style="edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n2b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="swim" source="n2b" style="edgeStyle=orthogonalEdgeStyle;" target="n3a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="swim" source="n2b" style="edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n4a">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Fluxo 2 - Agendamento e Notificação" id="fluxo2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Er2AIR9zOEYQf5AUN0H0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="590" width="1280" x="-180" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lane1" parent="1" style="swimlane;startSize=30;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" value="Coordenação" vertex="1">
+          <mxGeometry height="590" width="220" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-start" parent="lane1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="115" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="n1-solicita" parent="lane1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Solicita um novo&lt;br&gt;agendamento" vertex="1">
+          <mxGeometry height="50" width="140" x="60" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="lane1" source="n1-start" style="edgeStyle=orthogonalEdgeStyle;" target="n1-solicita">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="swimlane;startSize=30;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Recepcionista" vertex="1">
+          <mxGeometry height="590" width="230" x="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n2-start" parent="lane2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="n2-inicia" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Inicia agendamento&#xa;no sistema" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n2-sugere" parent="lane2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="Sugere horário&#xa;alternativo" vertex="1">
+          <mxGeometry height="50" width="490" x="-280" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="lane2" source="n2-start" style="edgeStyle=orthogonalEdgeStyle;" target="n2-inicia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="1" style="swimlane;startSize=30;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Sistema GISA" vertex="1">
+          <mxGeometry height="590" width="270" x="490" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n3-verifica" parent="lane3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Verifica disponibilidade&#xa;na agenda do profissional" vertex="1">
+          <mxGeometry height="60" width="200" x="35" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n3-decisao" parent="lane3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Horário&#xa;disponível?" vertex="1">
+          <mxGeometry height="80" width="150" x="60" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n3-agendado" parent="lane3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Consulta registrada&#xa;no sistema" vertex="1">
+          <mxGeometry height="50" width="200" x="35" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="lane3" source="n3-verifica" style="edgeStyle=orthogonalEdgeStyle;" target="n3-decisao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="lane3" source="n3-decisao" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n3-agendado" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="lane3" source="n2-sugere" style="edgeStyle=orthogonalEdgeStyle;fontSize=11;fontStyle=2;dashed=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.935;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" target="n3-verifica" value="Reagendar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="339" />
+              <mxPoint x="-50" y="200" />
+              <mxPoint x="85" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lane4" parent="1" style="swimlane;startSize=30;horizontal=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" value="Chatbot (WhatsApp)" vertex="1">
+          <mxGeometry height="590" width="340" x="760" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n4-notif" parent="lane4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Envia notificação automática&#xa;ao paciente / responsável" vertex="1">
+          <mxGeometry height="60" width="200" x="70" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="n4-fim" parent="lane4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="155" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="lane4" source="n4-notif" style="edgeStyle=orthogonalEdgeStyle;" target="n4-fim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n1-solicita" style="edgeStyle=orthogonalEdgeStyle;" target="n3-verifica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n2-inicia" style="edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n3-verifica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="n3-decisao" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n2-sugere" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="n3-agendado" style="edgeStyle=orthogonalEdgeStyle;" target="n4-notif">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-1" parent="1" style="swimlane;startSize=30;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Paciente / Responsável" vertex="1">
+          <mxGeometry height="590" width="220" x="-180" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-4" parent="WOkP1xXQkJj4C-CGgrjb-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Recebe confirmação&#xa;de agendamento" vertex="1">
+          <mxGeometry height="50" width="140" x="40" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-5" parent="WOkP1xXQkJj4C-CGgrjb-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="95" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-7" edge="1" parent="WOkP1xXQkJj4C-CGgrjb-1" source="WOkP1xXQkJj4C-CGgrjb-4" style="edgeStyle=orthogonalEdgeStyle;" target="WOkP1xXQkJj4C-CGgrjb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-8" edge="1" parent="1" source="n3-agendado" style="edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="WOkP1xXQkJj4C-CGgrjb-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="510" />
+              <mxPoint x="-70" y="510" />
+            </Array>
+            <mxPoint x="680" y="480" as="sourcePoint" />
+            <mxPoint x="-70" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-11" edge="1" parent="1" source="WOkP1xXQkJj4C-CGgrjb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="n2-sugere">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="-80" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WOkP1xXQkJj4C-CGgrjb-12" edge="1" parent="1" source="n1-start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n2-sugere">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

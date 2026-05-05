@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Fluxo 8 - Cadastro Social" id="fluxo8">
+    <mxGraphModel dx="843" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="swim" parent="1" style="shape=pool;startSize=30;horizontal=1;childLayout=stackLayout;horizontalStack=1;resizeParent=1;resizeParentMax=0;collapsible=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;fontStyle=1;" value="Fluxo 8 — Cadastro Social e Acompanhamento Socioeconômico" vertex="1">
+          <mxGeometry height="630" width="1060" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" value="Assistente Social" vertex="1">
+          <mxGeometry height="630" width="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n1s" parent="l1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1a" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Entrevista paciente&#xa;e responsável" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1b" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Registra dados financeiros&#xa;e familiares (Assistência)" vertex="1">
+          <mxGeometry height="60" width="150" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n1c" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Acompanha situação&#xa;socioeconômica" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n1dec" parent="l1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Paciente precisa&#xa;de encaminhamento&#xa;externo?" vertex="1">
+          <mxGeometry height="90" width="150" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="n1d" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Registra&#xa;encaminhamento" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="l1" source="n1s" style="edgeStyle=orthogonalEdgeStyle;" target="n1a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="l1" source="n1a" style="edgeStyle=orthogonalEdgeStyle;" target="n1b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="l1" source="n1dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n1d" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Sistema GISA" vertex="1">
+          <mxGeometry height="630" width="260" x="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n2a" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Salva cadastro&#xa;multidimensional" vertex="1">
+          <mxGeometry height="50" width="150" x="55" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="n2b" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Histórico social&#xa;atualizado" vertex="1">
+          <mxGeometry height="50" width="150" x="55" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n2f" parent="l2" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="130" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" value="Coordenação" vertex="1">
+          <mxGeometry height="630" width="260" x="490" as="geometry" />
+        </mxCell>
+        <mxCell id="n3a" parent="l3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Recebe alerta de&#xa;vulnerabilidade social" vertex="1">
+          <mxGeometry height="50" width="150" x="55" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Serviço Externo / Rede de Apoio" vertex="1">
+          <mxGeometry height="630" width="310" x="750" as="geometry" />
+        </mxCell>
+        <mxCell id="n4a" parent="l4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Recebe encaminhamento&#xa;e acolhe paciente" vertex="1">
+          <mxGeometry height="50" width="160" x="75" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="n4f" parent="l4" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="190" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="l4" source="n4a" style="edgeStyle=orthogonalEdgeStyle;exitX=0.818;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" target="n4f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="swim" source="n1b" style="edgeStyle=orthogonalEdgeStyle;" target="n2a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="swim" source="n2a" style="edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="n1c">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="300" />
+              <mxPoint x="115" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="swim" source="n1c" style="edgeStyle=orthogonalEdgeStyle;" target="n2b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="swim" source="n2b" style="edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n1dec">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="400" />
+              <mxPoint x="115" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="swim" source="n1dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n2f" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="swim" source="n1d" style="edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="n4a">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="550" />
+              <mxPoint x="508" y="550" />
+              <mxPoint x="508" y="530" />
+              <mxPoint x="905" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="swim" source="n1d" style="edgeStyle=orthogonalEdgeStyle;" target="n3a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

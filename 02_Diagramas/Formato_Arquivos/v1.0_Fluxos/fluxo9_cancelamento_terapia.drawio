@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Fluxo 9 - Cancelamento de Terapia" id="fluxo9">
+    <mxGraphModel dx="1065" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="swim" parent="1" style="shape=pool;startSize=30;horizontal=1;childLayout=stackLayout;horizontalStack=1;resizeParent=1;resizeParentMax=0;collapsible=0;fillColor=#f5f5f5;strokeColor=light-dark(#fff2cc, #ededed);fontColor=#333333;fontSize=14;fontStyle=1;" value="Fluxo 9 — Cancelamento de Terapia" vertex="1">
+          <mxGeometry height="640" width="1060" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" value="Paciente / Responsável" vertex="1">
+          <mxGeometry height="640" width="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n1s" parent="l1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1a" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Solicita cancelamento&#xa;de terapia" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1b" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Informa motivo&#xa;do cancelamento" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n1c" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Recebe confirmação&#xa;do cancelamento" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="n1f" parent="l1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="l1" source="n1s" style="edgeStyle=orthogonalEdgeStyle;" target="n1a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="l1" source="n1c" style="edgeStyle=orthogonalEdgeStyle;" target="n1f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Recepcionista / Secretária" vertex="1">
+          <mxGeometry height="640" width="250" x="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n2a" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Recebe solicitação&#xa;e valida dados" vertex="1">
+          <mxGeometry height="50" width="150" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2dec" parent="l2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Cancelamento&#xa;autorizado pela&#xa;coordenação?" vertex="1">
+          <mxGeometry height="90" width="150" x="50" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="n2b" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="Comunica recusa&#xa;ao paciente" vertex="1">
+          <mxGeometry height="50" width="150" x="50" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="l2" source="n2dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n2b" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Sistema GISA" vertex="1">
+          <mxGeometry height="640" width="270" x="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n3a" parent="l3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Encerra prontuário&#xa;e remove da agenda" vertex="1">
+          <mxGeometry height="60" width="160" x="55" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="n3b" parent="l3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Notifica paciente&#xa;via chatbot" vertex="1">
+          <mxGeometry height="50" width="160" x="55" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="n3f" parent="l3" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="120" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="l3" source="n3a" style="edgeStyle=orthogonalEdgeStyle;" target="n3b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="l3" source="n3b" style="edgeStyle=orthogonalEdgeStyle;" target="n3f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" value="Coordenação" vertex="1">
+          <mxGeometry height="640" width="310" x="750" as="geometry" />
+        </mxCell>
+        <mxCell id="n4a" parent="l4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Recebe alerta de&#xa;solicitação de cancelamento" vertex="1">
+          <mxGeometry height="60" width="170" x="70" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="n4dec" parent="l4" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Autoriza&#xa;cancelamento?" vertex="1">
+          <mxGeometry height="80" width="150" x="80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="l4" source="n4a" style="edgeStyle=orthogonalEdgeStyle;" target="n4dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="swim" source="n1a" style="edgeStyle=orthogonalEdgeStyle;" target="n2a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="swim" source="n2a" style="edgeStyle=orthogonalEdgeStyle;exitX=0.469;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" target="n1b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="swim" source="n1b" style="edgeStyle=orthogonalEdgeStyle;" target="n4a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="swim" source="n4dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n2dec" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="swim" source="n2dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n3a" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="swim" source="n4dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="n2b" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="swim" source="n3b" style="edgeStyle=orthogonalEdgeStyle;" target="n1c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

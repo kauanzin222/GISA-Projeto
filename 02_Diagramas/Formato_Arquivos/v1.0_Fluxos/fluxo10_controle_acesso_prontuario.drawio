@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Fluxo 10 - Controle de Acesso ao Prontuário" id="fluxo10">
+    <mxGraphModel dx="1012" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="swim" parent="1" style="shape=pool;startSize=30;horizontal=1;childLayout=stackLayout;horizontalStack=1;resizeParent=1;resizeParentMax=0;collapsible=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;fontStyle=1;" value="Fluxo 10 — Controle de Acesso ao Prontuário" vertex="1">
+          <mxGeometry height="620" width="1060" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Profissional / Médico" vertex="1">
+          <mxGeometry height="620" width="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n1s" parent="l1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n1a" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Solicita acesso&#xa;ao prontuário" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n1b" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Assina digitalmente&#xa;o acesso" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n1c" parent="l1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" value="Acessa prontuário&#xa;do paciente" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="n1f" parent="l1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="l1" source="n1s" style="edgeStyle=orthogonalEdgeStyle;" target="n1a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="l1" source="n1c" style="edgeStyle=orthogonalEdgeStyle;" target="n1f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l2" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" value="Secretária" vertex="1">
+          <mxGeometry height="620" width="250" x="230" as="geometry" />
+        </mxCell>
+        <mxCell id="n2a" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" value="Verifica permissão&#xa;do profissional" vertex="1">
+          <mxGeometry height="50" width="150" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n2dec" parent="l2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Profissional&#xa;tem permissão?" vertex="1">
+          <mxGeometry height="80" width="150" x="50" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n2b" parent="l2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" value="Registra acesso&#xa;negado no log" vertex="1">
+          <mxGeometry height="50" width="150" x="50" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n2f" parent="l2" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="110" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="l2" source="n2a" style="edgeStyle=orthogonalEdgeStyle;" target="n2dec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="l2" source="n2dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n2b" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="l2" source="n2b" style="edgeStyle=orthogonalEdgeStyle;" target="n2f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l3" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Sistema GISA" vertex="1">
+          <mxGeometry height="620" width="270" x="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n3a" parent="l3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Registra assinatura&#xa;de acesso no log" vertex="1">
+          <mxGeometry height="50" width="160" x="55" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="n3b" parent="l3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="Libera visualização&#xa;do prontuário" vertex="1">
+          <mxGeometry height="50" width="160" x="55" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="l3" source="n3a" style="edgeStyle=orthogonalEdgeStyle;" target="n3b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l4" parent="swim" style="swimlane;startSize=30;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" value="Administrador" vertex="1">
+          <mxGeometry height="620" width="310" x="750" as="geometry" />
+        </mxCell>
+        <mxCell id="n4a" parent="l4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Recebe alerta de&#xa;tentativa negada" vertex="1">
+          <mxGeometry height="50" width="170" x="70" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n4f" parent="l4" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;double=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="140" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="l4" source="n4a" style="edgeStyle=orthogonalEdgeStyle;" target="n4f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="swim" source="n1a" style="edgeStyle=orthogonalEdgeStyle;" target="n2a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="swim" source="n2dec" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;fontStyle=2;" target="n1b" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="swim" source="n1b" style="edgeStyle=orthogonalEdgeStyle;" target="n3a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="swim" source="n3b" style="edgeStyle=orthogonalEdgeStyle;" target="n1c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="swim" source="n2b" style="edgeStyle=orthogonalEdgeStyle;" target="n4a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
