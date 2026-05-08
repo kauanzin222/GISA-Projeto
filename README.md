@@ -1,6 +1,6 @@
-# GISA (Gestão e Inovação em Saúde) - Receitas Digitais
+# GISA (Gestão e Inovação em Saúde)
 
-## &nbsp;&nbsp;&nbsp;&nbsp;Ferramenta de auxílio para o âmbito de saúde pública 🏥  
+## &nbsp;&nbsp;&nbsp;&nbsp;Ferramenta de auxílio para o âmbito de saúde pública
 &nbsp;&nbsp;&nbsp;&nbsp;O projeto **GISA (Gestão e Inovação em Saúde)** tem como objetivo trazer uma maneira de se administrar de gestão em saúde voltado para instituições como a APAE, substituindo processos manuais (Excel, papel, WhatsApp) por uma plataforma unificada com prontuário eletrônico, agendamento inteligente, notificações automáticas e geração de relatórios para fiscalização governamental.
 
 ---
